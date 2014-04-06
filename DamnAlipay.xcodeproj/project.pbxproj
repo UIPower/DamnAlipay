@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA03B6A18EFDEBC008B6818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA03B6918EFDEBC008B6818 /* Foundation.framework */; };
+		FEA03B6C18EFDEBC008B6818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA03B6B18EFDEBC008B6818 /* UIKit.framework */; };
+		FEA03B7718EFDEBC008B6818 /* DamnAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA03B7618EFDEBC008B6818 /* DamnAlipay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEA03B6618EFDEBC008B6818 /* libDamnAlipay.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDamnAlipay.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA03B6918EFDEBC008B6818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEA03B6B18EFDEBC008B6818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEA03B7018EFDEBC008B6818 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		FEA03B7118EFDEBC008B6818 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FEA03B7318EFDEBC008B6818 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FEA03B7418EFDEBC008B6818 /* DamnAlipay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DamnAlipay-Prefix.pch"; sourceTree = "<group>"; };
+		FEA03B7518EFDEBC008B6818 /* DamnAlipay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DamnAlipay.h; sourceTree = "<group>"; };
+		FEA03B7618EFDEBC008B6818 /* DamnAlipay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DamnAlipay.m; sourceTree = "<group>"; };
+		FEA03B7A18EFDEBC008B6818 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/lib/0xdeadfa11; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA03B6218EFDEBC008B6818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA03B6A18EFDEBC008B6818 /* Foundation.framework in Frameworks */,
+				FEA03B6C18EFDEBC008B6818 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA03B5C18EFDEBC008B6818 = {
+			isa = PBXGroup;
+			children = (
+				FEA03B6D18EFDEBC008B6818 /* DamnAlipay */,
+				FEA03B6818EFDEBC008B6818 /* Frameworks */,
+				FEA03B6718EFDEBC008B6818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA03B6718EFDEBC008B6818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B6618EFDEBC008B6818 /* libDamnAlipay.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA03B6818EFDEBC008B6818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B6918EFDEBC008B6818 /* Foundation.framework */,
+				FEA03B6B18EFDEBC008B6818 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA03B6D18EFDEBC008B6818 /* DamnAlipay */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B7518EFDEBC008B6818 /* DamnAlipay.h */,
+				FEA03B7618EFDEBC008B6818 /* DamnAlipay.m */,
+				FEA03B6E18EFDEBC008B6818 /* Package */,
+				FEA03B7218EFDEBC008B6818 /* Supporting Files */,
+			);
+			path = DamnAlipay;
+			sourceTree = "<group>";
+		};
+		FEA03B6E18EFDEBC008B6818 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B6F18EFDEBC008B6818 /* DEBIAN */,
+				FEA03B7818EFDEBC008B6818 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		FEA03B6F18EFDEBC008B6818 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B7018EFDEBC008B6818 /* control.txt */,
+				FEA03B7118EFDEBC008B6818 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FEA03B7218EFDEBC008B6818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B7318EFDEBC008B6818 /* PackageVersion.plist */,
+				FEA03B7418EFDEBC008B6818 /* DamnAlipay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA03B7818EFDEBC008B6818 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B7918EFDEBC008B6818 /* lib */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		FEA03B7918EFDEBC008B6818 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FEA03B7A18EFDEBC008B6818 /* 0xdeadfa11 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FEA03B6318EFDEBC008B6818 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FEA03B6518EFDEBC008B6818 /* DamnAlipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA03B7D18EFDEBC008B6818 /* Build configuration list for PBXNativeTarget "DamnAlipay" */;
+			buildPhases = (
+				FEA03B6118EFDEBC008B6818 /* Sources */,
+				FEA03B6218EFDEBC008B6818 /* Frameworks */,
+				FEA03B6318EFDEBC008B6818 /* Headers */,
+				FEA03B6418EFDEBC008B6818 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DamnAlipay;
+			productName = DamnAlipay;
+			productReference = FEA03B6618EFDEBC008B6818 /* libDamnAlipay.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA03B5D18EFDEBC008B6818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = FEA03B6018EFDEBC008B6818 /* Build configuration list for PBXProject "DamnAlipay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEA03B5C18EFDEBC008B6818;
+			productRefGroup = FEA03B6718EFDEBC008B6818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA03B6518EFDEBC008B6818 /* DamnAlipay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEA03B6418EFDEBC008B6818 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA03B6118EFDEBC008B6818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA03B7718EFDEBC008B6818 /* DamnAlipay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEA03B7B18EFDEBC008B6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		FEA03B7C18EFDEBC008B6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		FEA03B7E18EFDEBC008B6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DamnAlipay/DamnAlipay-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		FEA03B7F18EFDEBC008B6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DamnAlipay/DamnAlipay-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA03B6018EFDEBC008B6818 /* Build configuration list for PBXProject "DamnAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA03B7B18EFDEBC008B6818 /* Debug */,
+				FEA03B7C18EFDEBC008B6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA03B7D18EFDEBC008B6818 /* Build configuration list for PBXNativeTarget "DamnAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA03B7E18EFDEBC008B6818 /* Debug */,
+				FEA03B7F18EFDEBC008B6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA03B5D18EFDEBC008B6818 /* Project object */;
+}
